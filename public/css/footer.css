@@ -1,0 +1,19 @@
+
+#Footer {
+    background-image: url("../img/galeria/Fondo final.png");
+    background-size: cover;   
+    height: 30vh;
+}
+
+.Icono {
+    width: 5%;
+    margin: 5px;
+}
+
+#Manos {
+    transform: translate(680%,100%);
+}
+
+#Redes {
+    transform: translate(680%,90%);
+}

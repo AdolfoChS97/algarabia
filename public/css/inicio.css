@@ -1,0 +1,126 @@
+.Inicio{
+    background: url(../img/inicio/FondoI\ .png ) no-repeat center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+.btnH{
+    border-radius: 21px 21px 21px 21px;
+    color: black; 
+    background: rgba(255, 255, 255, 0);    
+}
+
+.Alagarabia{
+    color: #FFF;
+}
+@media screen and (min-width: 600px) {
+    div.Alagarabia {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.Alagarabia {
+      font-size: 30px;
+      margin-top: 0%
+    }
+  }
+
+  .subTitulo{
+    color: #FFF;
+  }
+  @media screen and (min-width: 600px) {
+    div.subTitulo {
+        font-size: 17px;
+        margin-top: 4%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.subTitulo {
+        font-size: 13px;
+        margin-top: 14%;
+    }
+  }
+
+.ContInicio{
+    opacity: 0.9;
+    background-image: url(../img/inicio/Fondo-\ INICIO.png);
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+
+}
+
+
+
+.slice {
+    
+    background-color: #C0C0C0;
+    opacity: 0.8;
+    color: rgb(0,0,0);
+    padding: 25px;
+}
+
+.Cuadro {
+    margin:25px 17px;
+    border: 1px solid white;
+    padding: 15px; 
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align:middle;
+}
+
+
+#nuevo-logo{
+    max-width: 60px;
+    max-height: auto;
+    margin: auto;
+}
+
+#Libro {
+    width:260px;
+    margin: 0px 25px;
+    height: auto;
+}
+
+
+
+#LogoAmazon, #LogoMercado, #LogoUphold {
+    width: 200px;
+    margin: 30px 1px 16px 9px;
+}
+
+.zoom{
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+.zoom:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+        su tamaño con scale(2). */
+        transform : scale(1.3);
+        -moz-transform : scale(1.3);     
+        -webkit-transform : scale(1.3);   
+        -o-transform : scale(1.3);       
+    }
+
+.landing-text h1, h6{
+    color: #ffffff;
+}
+
+.landing-text h1{
+    font-size:500%;
+    font-weight: 700;
+    
+}

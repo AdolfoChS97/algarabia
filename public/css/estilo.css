@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+    width: 100%;
+   
+}
+*{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+header {
+    padding-bottom: 35px;
+}
+
+#NavBarAlgarabia ul li {
+    margin: 0px 15px;
+}
+
+#NavBarAlgarabia ul li a {
+    color: rgb(0,0,0);
+    padding:0 !important;
+}
+.dropdown-menu{
+    margin-top: 17%;
+    background-color: rgb(22, 21, 21);
+    opacity: 0.9;
+}
+.dropdown-menu a{
+    text-align: center;
+    color: #FFFFFF !important;  
+}
+.dropdown-menu a:hover {
+    background-color: #878a87;
+    color: white;
+}
+#AlgarabiaImg {
+    width: 95px; 
+    height: 35px;
+} 
+
+#btn-inicio {
+    margin: 0px;
+    transform: translate(-20%,15%);
+}

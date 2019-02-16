@@ -1,0 +1,60 @@
+/**=======================SECCION CONTACTO===============================**/
+.Seccion4 {
+    background-image: url("../img/contacto/Fondo contacto.png");
+    background-size: cover;
+    height: 1000px;
+    color: white;
+}
+
+#FormContacto {
+    margin: 200px 0px 0px 0px;
+}
+
+.inputTransparent {
+    background-color: transparent;
+    color:white;
+    box-shadow: none;
+    font-size: 20px;
+}
+
+.inputTransparent::placeholder {
+    color: #C0C0C0;
+}
+
+.InputSubmit {
+    border-radius: 30px;
+    color: white;
+    border-color: white;
+    letter-spacing: 2px;
+    background-color: transparent;
+    padding: 10px;
+    width: 20%;
+    font-size: 15px;
+}
+
+.inputTransparent:focus {
+    background-color: transparent;
+    color:white;
+}
+
+.alert{
+    position: fixed;
+    bottom: 0;
+    right: 70px;
+    width: 461px;
+}
+
+
+.Seccion4 {
+    background-image: url("../img/contacto/Fondo contacto.png");
+    background-size: cover;
+    height: 1000px;
+    color: white;
+}
+.inputTransparent::placeholder {
+    color: #C0C0C0;
+}
+
+.InputSubmit:hover{
+    cursor: pointer;
+}
