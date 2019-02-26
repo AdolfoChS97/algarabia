@@ -6,9 +6,18 @@
     color: white;
 }
 
+
 #FormContacto {
     margin: 200px 0px 0px 0px;
 }
+
+
+
+@media screen and (max-width: 320px) {
+    #Contacto{
+        display:none;
+    }
+  }
 
 .inputTransparent {
     background-color: transparent;
@@ -58,3 +67,11 @@
 .InputSubmit:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+    div.Seccion4{
+        height: 692px;
+     }
+   }
+
+ 

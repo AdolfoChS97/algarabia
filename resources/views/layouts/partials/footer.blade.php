@@ -110,14 +110,14 @@ function soloLetras(e){
     },
     Obras: {
       template: `
-      <nav>
+      <nav class="nav-eventos">
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <a class="pildoEven  nav-link active" id="nav-INFO-tab" data-toggle="tab" href="#nav-INFO" role="tab" aria-controls="nav-INFO" aria-selected="true">INFO</a>
           <a class="pildoEven  nav-link" id="nav-SINOPSIS-tab" data-toggle="tab" href="#nav-SINOPSIS" role="tab" aria-controls="nav-SINOPSIS" aria-selected="false">SINOPSIS</a>
           <a class="pildoEven  nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">IMAGENES</a>
         </div>
       </nav>
-      <div class="tab-content" id="nav-tabContent">
+      <div class="tab-content nav-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-INFO" role="tabpanel" aria-labelledby="nav-INFO-tab">
           <h4>¿Quién dijo que el sexo es solo para jóvenes?</h4>
             <h5>La experiencia viene con el tiempo, con los encuentros, aciertos y desaciertos, la creativhqidad debe traspasar los límites de la imaginación, explorando sensaciones que creemos prohibidas.</h5><br>
@@ -139,9 +139,9 @@ function soloLetras(e){
               No son esposos ni hermanos, parecen perros y gatos, se odian, se quieren y hasta preferirían no ver uno al otro, pero sus locuras y ocurrencias equilibran su existencia.<br><br><br><br><br><br>
           </h5>
         </div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="tab-pane carru-event fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner carou1">
               <div class="carousel-item active">
                 <img id="ImgDj" src="img/tienda/Obra.PNG">
               </div>
@@ -212,24 +212,24 @@ function soloLetras(e){
     },
     Monologos: {
       template: `
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img id="ImgDj" src="img/tienda/Monologo.PNG">
+        <div id="carouselExampleControls" class="carousel slide carou2" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img id="ImgDj" src="img/tienda/Monologo.PNG">
+            </div>
+            <div class="carousel-item">
+                <img id="ImgDj" src="img/tienda/foto15.PNG">
+            </div>
+            <div class="carousel-item">
+                <img id="ImgDj" src="img/tienda/foto16.PNG">
+            </div>
+            <div class="carousel-item">
+                <img id="ImgDj" src="img/tienda/foto17.PNG">
+            </div>
+            <div class="carousel-item">
+                <img id="ImgDj" src="img/tienda/foto20.PNG">
+            </div>
           </div>
-          <div class="carousel-item">
-              <img id="ImgDj" src="img/tienda/foto15.PNG">
-          </div>
-          <div class="carousel-item">
-              <img id="ImgDj" src="img/tienda/foto16.PNG">
-          </div>
-          <div class="carousel-item">
-              <img id="ImgDj" src="img/tienda/foto17.PNG">
-          </div>
-          <div class="carousel-item">
-              <img id="ImgDj" src="img/tienda/foto20.PNG">
-          </div>
-        </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>

@@ -12,7 +12,7 @@
         <div class="ContInicio">
             <div class="landing-text">
                 <div class="subTitulo">PRODUCCIÓN Y ESPECTÁCULO</div>
-                <div class="Alagarabia">ALGARABÍA</div>
+                <div class="Algarabia">ALGARABÍA</div>
                 <img id="nuevo-logo" src="img/logo/NUEVO-LOGO-ALGARABÍA.png">
                 <div class="container">
                     <div class="Cuadro carousel">
@@ -21,28 +21,34 @@
                                 <div class="col-sm-4 libro">
                                     <img id="Libro" src="img/inicio/OJK9411.png">
                                 </div>
-                                <div class="col-sm-3">
-                                    <p>
-                                        <h4>SECRETOS DE UNA DAMA<br><b>ADQUIÉRELO YA!</b></h4>
-                                    </p>
+                                <div class="col-sm-6 infoSlice">
+                                    <h2>SECRETOS DE UNA DAMA<br><b>ADQUIÉRELO YA!</b></h2><br>
+                                    <p><b>
+                                        Nunca imaginó lo que la vida le tenía deparado, 
+                                        siempre pensaba que mientras más unidos estaban, 
+                                        nada malo les sucedería. La fatalidad la sorprendió, llegó de la nada, 
+                                        ese incidente apagó una luz que la acompañaba.
+                                    </b> </p>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="zoom">
+                                        <a href="#">
+                                            <img id="LogoAmazon" src="img/inicio/Amazon.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="zoom">
+                                        <a href="#">
+                                            <img id="LogoMercado" src="img/inicio/Mercado Libre.png">
+                                        </a>        
+                                    </div>
+                                </div>
+                                <div class="col-sm">
                                     <div class="zoom">
                                         <a href="#">
                                             <img id="LogoUphold" src="img/inicio/uphold.png">
                                         </a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <div class="zoom">
-                                            <a href="#">
-                                                <img id="LogoAmazon" src="img/inicio/Amazon.png">
-                                            </a>
-                                        </div>
-                                        <div class="zoom">
-                                            <a href="#">
-                                                <img id="LogoMercado" src="img/inicio/Mercado Libre.png">
-                                            </a>        
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -333,9 +339,9 @@
                             </div>
                         </div>
                         <div class="col-sm-2">
-                            <ul>                                    
+                            <ul>   
+                                <div class="Custom-underlineProduc"><a class="Productos TipoProductos" id="Gorras"><h4>Gorras</h4></a></div>                                 
                                 <div class="Custom-underlineProduc"><a class="Productos TipoProductos" id="Camisas"><h4>Camisas</h4></a></div>
-                                <div class="Custom-underlineProduc"><a class="Productos TipoProductos" id="Gorras"><h4>Gorras</h4></a></div>
                                 <div class="Custom-underlineProduc"><a class="Productos TipoProductos" id=""><h4>Chaquetas</h4></a></div>
                             </ul>
                         </div>
@@ -351,7 +357,7 @@
                                         <div class="items p"> <img id="Shirt" src="img/tienda/camisa3.png"></div>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>     
                             <button type="button" class="btn next"><i class="fa fa-angle-double-right"></i></button>
                             <button type="button" class="btn prev"><i  class=" fa fa-angle-double-left"></i> </button> 
                         </div>
@@ -369,7 +375,7 @@
                             </div>
                         </div>
                         <div class="col-sm-2">
-                            <div id="">
+                            <div id="ServicioContenido">
                                 <ul>
                                     <div class="Custom-underlineServ"><a class="opcionServicio TipoProductos" id="Dj"><h4><b>Dj's</b></h4></a></div>                                 
                                     <div class="Custom-underlineServ"><a class="opcionServicio TipoProductos" id="Cantantes"><h4>Cantantes</h4></a></div>
@@ -404,7 +410,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-8 OptTalentoCont">
                                 <div id="OptTalento">
                                     <h5>¿Posees algún talento?<br><br>
                                         Algarabía producciones tiene la mejor plataforma para mostrar tus destrezas.<br><br>

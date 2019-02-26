@@ -14,15 +14,28 @@ header {
     margin: 0px 15px;
 }
 
+
+
 #NavBarAlgarabia ul li a {
     color: rgb(0,0,0);
     padding:0 !important;
 }
+
+@media screen and (max-width: 320px) {
+    #NavBarAlgarabia ul li a{
+        width: 456px;
+        height: 177px;
+        font-size: 66px;
+    }
+  }
+
 .dropdown-menu{
     margin-top: 17%;
     background-color: rgb(22, 21, 21);
     opacity: 0.9;
 }
+
+
 .dropdown-menu a{
     text-align: center;
     color: #FFFFFF !important;  
@@ -35,6 +48,12 @@ header {
     width: 95px; 
     height: 35px;
 } 
+@media screen and (max-width: 320px) {
+    #AlgarabiaImg {
+        width: 456px;
+        height: 177px;
+    }
+  }
 
 #btn-inicio {
     margin: 0px;

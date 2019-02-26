@@ -7,6 +7,7 @@ div#Tienda{
     width: 100%;
     background-size: cover;
 }
+
 .conttienda{
     background: url(../img/tienda/Efecto-Parallax-fixed.png);
     display: table;
@@ -20,10 +21,29 @@ div#Tienda{
     margin-left: -1%;
     color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 320px) {
+    .padingTienda {
+        font-size: 78px;
+        margin-top: 0%;
+        width: 1297px;
+  
+    }
+  }
 .tienda{
     margin-top: 5%;
     margin-left: 3%;
 }
+
+@media screen and (max-width: 320px) {
+    .tienda h3{
+    margin-top: 9%;
+    margin-left: 2%;
+    font-size: 116px;
+  
+    }
+  }
 #Compra {
     width: 100%;
 }  
@@ -67,11 +87,25 @@ div#Novedades{
     text-decoration:none;
    
 }
+@media screen and (max-width: 320px) {
+    #Novedades h4 {
+        font-size: 111px;
+        margin-top: -9%;
+        width: 1245px;
+    }
+  }
 .Custom-underlineLibro {
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(230, 225, 225, 0.534));
     font-size: 10px;
     width: 70px;
 }
+@media screen and (max-width: 320px) {
+    .Custom-underlineLibro {
+    font-size: 35px;
+    width: 772px;
+    }
+  }
+  
 .btn1 {
     border-radius: 21px 21px 21px 21px;
     background-color: #fafafa00;
@@ -84,21 +118,88 @@ div#Novedades{
     background-color: #878a87;
     color: white;
   } 
+  @media screen and (max-width: 320px) {
+    .btn1 {
+        font-size: 76px;
+        margin: 89px 0px 0px 142px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    a#btn-inicio {
+        font-size: 76px;
+        margin: 89px 0px 0px 142px;
+    }
+  }
 
   video#videoNovedades{
     width: 100%;
     height: auto;
 }
 
+@media screen and (max-width: 767px) {
+    video#videoNovedades {
+    width: 128%;
+    margin: 8px 0px 0px 83px;
+
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    video#videoNovedades {
+    width: 70%;
+    margin: 122px 0px 0px -40px;
+    }
+  }
+
 .eventos{
     margin-top: 10%;
     margin-left: 3%;
 }
+@media screen and (max-width: 320px) {
+    .eventos {
+        margin-top: 20%;
+        margin-left: 3%;
+    }
+  }
+
 .Custom-underlineFechas {
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(230, 225, 225, 0.534));
     font-size: 10px;
     width: 140px;
 }
+@media screen and (max-width: 320px) {
+    div.Custom-underlineFechas {
+    width: 500px;
+    margin: -1px 0px 0px 12px;
+
+    }
+  }
+/**
+@media screen and (max-width: 767px) {
+    div.Custom-underlineFechas {
+    width: 606%;
+    margin: -1px 0px 0px 12px;
+
+    }
+  }
+  */
+  @media screen and (max-width: 320px) {
+    div.Custom-underlineFechas h4 b {
+        font-size: 97px;
+
+    }
+  }
+
+
+  @media screen and (max-width: 320px) {
+    #Eventos h4 {
+        font-size: 123px;
+        height: 144px;  
+    }
+  }
+
+
 
 .Custom-underlineEvent{
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(230, 225, 225, 0.534));
@@ -111,24 +212,112 @@ div#Novedades{
     width: 135px;
 
 }
+
+
+
 #ImgDj, #ImgMicrofono, #Shirt {
     width: 100%;
     margin:0px;
 }
 
-a#entradasEven{
-    color: white;
-    text-decoration:none;
-}
+
+@media screen and (max-width: 767px) {
+    #ImgDj, #ImgMicrofono {
+    width: 128%;
+    margin: 8px 0px 0px 83px;
+
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #ImgDj, #ImgMicrofono {
+    width: 70%;
+    margin: 122px 0px 0px -40px;  
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    nav.nav-eventos {
+    width: 128%;
+    margin: -7px 7px 15px 100px;
+
+    }
+  }
+  @media screen and (max-width: 320px) {
+    nav.nav-eventos {
+        margin: -7px 7px 15px -52px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    div.nav-content {
+    text-align: justify;
+    width: 128%;
+    margin: -7px 7px 15px 100px;
+
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    div.nav-content {
+    width: 128%;
+    margin: 8px 0px 0px 83px;
+
+    }
+  }
+  @media screen and (max-width: 320px) {
+    div.nav-content h4{
+    text-align: center;
+    width: 126%;
+    margin: -8px 7px 15px -970px;
+    font-size: 61px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    div.nav-content p {
+        text-align: center;
+        width: 127%;
+        margin: -8px 7px 15px -970px;
+        font-size: 30px; 
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    div.carou1 {
+    width: 124%;
+    margin: 0px -14px 15px -126px;
+
+    }
+  }
+
+  
+  @media screen and (max-width: 767px) {
+    div.carou2 {
+    width: 124%;
+    margin: 0px -14px 15px -126px;
+
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    #Shirt {
+    width: 78%;
+    margin: 71px -4px 15px 63px;
+    }
+  }
+
+
+  @media screen and (max-width: 767px) {
+    #OptProducto {
+        width: 75%;
+        margin: 23px 0px 32px 0px;
+    }
+  }
+
+
+
 
 .flot{
     position: absolute;
     transform: translate(200%, -297%); 
-}
-
-a#entradasEven:hover{
-    background-color: #878a87;
-    color: white;
 }
 
 .productos{
@@ -136,6 +325,14 @@ a#entradasEven:hover{
     margin-left: 3%; 
 }
 
+
+
+@media screen and (max-width: 320px) {
+    #Productos h4 {
+        font-size: 123px;
+        width: 12px; 
+    }
+  }
 .Custom-underlineProduc{
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(230, 225, 225, 0.534));
     font-size: 10px;
@@ -146,6 +343,19 @@ a#entradasEven:hover{
 .Custom-underlineProduc:hover{
     width: 135px;
 }
+
+@media screen and (max-width: 767px) {
+    div.Custom-underlineProduc{
+        margin: -18px -255px 30px 80px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    div.Custom-underlineProduc h4 {
+        font-size: 123px;
+        width: 12px; 
+    }
+  }
+
 .carousel2 {
     height: 100%;
     width: 100%;
@@ -167,6 +377,12 @@ a#entradasEven:hover{
     opacity: 0.95;
     border-radius: 10px;
 }
+@media screen and (max-width: 320px) {
+    div.items{
+        width: 325px;
+    
+    }
+  }
 
 .l {
     transform: rotateY(0deg) translateZ(250px);
@@ -187,8 +403,6 @@ a#entradasEven:hover{
     transform: rotateY(300deg) translateZ(250px);
 }
 
- 
- 
 .next, .prev {
     position: absolute;
     top: 100px;
@@ -197,6 +411,19 @@ a#entradasEven:hover{
     z-index: 2;
 }
 
+
+@media screen and (max-width: 767px) {
+    button.next, button.prev{
+        width: 51%;
+        margin: 161px -223px 32px -89px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    button.next, button.prev{
+        width: 642px;
+        margin: 434px 326px 21px -325px;
+    }
+  }
 
 .next:hover, .prev:hover { color: rgb(248, 246, 246); }
 .next:active, .prev:active {
@@ -210,14 +437,15 @@ a#entradasEven:hover{
     color: #ffff;
 }
 
-  .prev{ 
+.prev{ 
     font-size: 56px;
     left: 2em;
     right: 3em;
     color: #ffff;
     text-align: center;
-    }
+}
 
+    
 .prodCarusel{
    
     margin: 0 auto;
@@ -228,11 +456,40 @@ a#entradasEven:hover{
     z-index: 1;
 }
 
+@media screen and (max-width: 767px) {
+    div.prodCarusel{
+    width: 173px;
+    margin: 59px -14px 139px 63px;
+
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    div.prodCarusel{
+        width: 265px;
+    margin: 60px -14px 139px 421px;
+    }
+  }
+
 .servicios{
     margin-top: 32%;
     margin-left: 3%;
 }
 
+@media screen and (max-width: 767px) {
+    #ServicioContenido{
+    width: 128%;
+    margin: 8px 0px 0px 83px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    #Servicios h4{
+    font-size: 123px;
+    width: 12px; 
+    
+    }
+  }
 .Custom-underlineServ{
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(230, 225, 225, 0.534));
     font-size: 10px;
@@ -240,10 +497,22 @@ a#entradasEven:hover{
     -webkit-transition: width 2s; 
     transition: width 2s;
 }
+@media screen and (max-width: 320px) {
+    div.Custom-underlineServ h4{
+    font-size: 123px;
+
+    
+    }
+  }
 .Custom-underlineServ:hover{
     width: 155px;
 
 }
+@media screen and (max-width: 767px) {
+    div.Custom-underlineServ{
+        margin: 48px 0px -19px -169px;
+    }
+  }
 
 
 .talento{
@@ -252,6 +521,11 @@ a#entradasEven:hover{
     margin-bottom: 17%;
 }
 
+@media screen and (max-width: 320px) {
+    div.talento{
+    margin-top: 39%;
+    }
+  }
 .Custom-underlineTale{
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(230, 225, 225, 0.534));
     font-size: 10px;
@@ -259,7 +533,46 @@ a#entradasEven:hover{
     -webkit-transition: width 2s; 
     transition: width 2s;
 }
+
+@media screen and (max-width: 320px) {
+    .Custom-underlineTale h4{
+    font-size: 123px;
+    }
+  }
 .Custom-underlineTale:hover{
     width: 100px;
 
 }
+@media screen and (max-width: 767px) {
+    div.Custom-underlineTale{
+        margin: 73px 0px 0px -85px;
+    }
+  }
+ 
+  
+
+  @media screen and (max-width: 320px) {
+    #Talento h4{
+        margin-top: -233px;
+        font-size: 123px;
+    }
+  }
+
+  
+  @media screen and (max-width: 767px) {
+   div.OptTalentoCont{
+    margin: 30px 208px;
+    margin-top: -63%;
+    text-align: justify;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    div.OptTalentoCont{
+    margin-top: -63%;
+    margin: 30px -56px;
+    text-align: center;
+    font-size: 53px;
+    
+    }
+  }

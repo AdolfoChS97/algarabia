@@ -17,3 +17,16 @@
 #Redes {
     transform: translate(680%,90%);
 }
+
+
+@media screen and (max-width: 767px) {
+    #Footer{
+        height: 182px;
+     }
+   }
+   @media screen and (max-width: 320px) {
+    #Footer{
+        margin: -1px -971px 0px 0px;
+        height: 298px;
+    }
+  }

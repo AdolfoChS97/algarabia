@@ -11,39 +11,80 @@
     color: black; 
     background: rgba(255, 255, 255, 0);    
 }
-
-.Alagarabia{
-    color: #FFF;
+@media screen and (max-width: 320px) {
+  a.btnH{
+      width: 456px;
+      height: 177px;
+      font-size: 66px;
+  }
 }
+
+.Algarabia{
+    color: #FFF;
+
+}
+
+
 @media screen and (min-width: 600px) {
-    div.Alagarabia {
-      font-size: 80px;
+    div.Algarabia {
+        font-size: 6vw;
     }
   }
   
-  @media screen and (max-width: 600px) {
-    div.Alagarabia {
-      font-size: 30px;
-      margin-top: 0%
+  @media screen and (max-width: 799px) {
+    div.Algarabia {
+        font-size: 53px;
+        margin-top: 0%
     }
   }
 
+  @media screen and (max-width: 320px) {
+    div.Algarabia {
+      font-size: 125px;
+  
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    div.Inicio {
+      font-size: 78px;
+      margin-top: 0%;
+      height: 251px;
+      width: 1297px;
+  
+    }
+  }
+
+/*************************************************/
   .subTitulo{
     color: #FFF;
+ 
   }
-  @media screen and (min-width: 600px) {
+
+
+  @media screen and (min-width: 767px) {
     div.subTitulo {
-        font-size: 17px;
-        margin-top: 4%;
+        font-size: 20px;
+        margin-top: 5%;
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 991px) {
     div.subTitulo {
-        font-size: 13px;
-        margin-top: 14%;
+        margin-top: 9%;
+        font-size: 16px;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    div.subTitulo  {
+    font-size: 35px;
+    margin-top: 245px;
+
+    }
+  }
+
+
 
 .ContInicio{
     opacity: 0.9;
@@ -65,12 +106,112 @@
     color: rgb(0,0,0);
     padding: 25px;
 }
+@media screen and (max-width: 767px) {
+    div.slice {
+        margin:25px -37px;
+        margin-top: 3%;
+        font-size: -1vw;
+        padding: 41px;
+    }
+  }
+
+  @media (min-width: 991px) { 
+    div.slice {
+        margin-top: 1%;
+        font-size: -1vw;
+        padding: 25px;
+    }
+  }
+ 
+
+
 
 .Cuadro {
-    margin:25px 17px;
+    margin:64px 17px;
     border: 1px solid white;
     padding: 15px; 
 }
+
+@media screen and (max-width: 767px) {
+    div.Cuadro {
+        margin:25px -37px;
+        margin-top: 3%;
+        font-size: -1vw;
+    }
+  }
+
+  @media (min-width: 991px) { 
+    div.Cuadro {
+        margin-top: 2%;
+        font-size: -1vw;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    div.Cuadro  {
+      margin-top: 2%;
+      margin: 20px 18px 286px 4px;
+    
+    }
+  }
+
+  .infoSlice{
+    margin-top: -1px;
+  }
+
+  .infoSlice P{
+    text-align: justify;
+  }
+
+  @media screen and (max-width: 320px) {
+    div.infoSlice h2 {
+        margin: 9px 41px;
+        margin-top: 3%;
+        font-size: 99px;
+
+    }
+  }
+  @media screen and (max-width: 320px) {
+    div.infoSlice p b {
+      display:none;
+
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    div.infoSlice {
+        margin: 9px 41px;
+        margin-top: 3%;
+
+    }
+  }
+
+  
+  @media (min-width: 991px) { 
+    div.infoSlice {
+        margin-top: 2%;
+        font-size: -1vw;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    div.infoSlice P {
+        margin: 9px -75px 25px -212px;
+        margin-top: 3%;
+        font-size: 20px;
+
+    }
+  }
+  @media screen and (max-width: 991px) {
+    div.infoSlice P {
+        margin: 9px -75px 25px -212px;
+        margin-top: 27%;
+        font-size: 20px;
+
+    }
+  }
+
+
+
 
 .landing-text{
     display: table-cell;
@@ -85,18 +226,70 @@
     margin: auto;
 }
 
+@media screen and (max-width: 320px) {
+  #nuevo-logo  {
+    max-width: 132px;
+
+  }
+}
+
+
 #Libro {
     width:260px;
     margin: 0px 25px;
     height: auto;
 }
 
+@media screen and (max-width: 767px) {
+    #Libro {
+        width: 173px;
+
+    }
+  }
+
+  @media (min-width: 991px) { 
+    #Libro {
+        margin-top: 2%;
+        font-size: -1vw;
+    }
+  }
+  
+  @media (min-width: 320px) { 
+    #Libro {
+        margin-top: 2%;
+        width: 100%;
+    }
+  }
 
 
 #LogoAmazon, #LogoMercado, #LogoUphold {
-    width: 200px;
-    margin: 30px 1px 16px 9px;
+    width: 193px;
+    margin: 6px -6px 10px 97px;
 }
+
+@media screen and (max-width: 767px) {
+    #LogoAmazon, #LogoMercado, #LogoUphold {
+        width: 173px;
+        margin: 14px 30px 6px 8px
+
+    }
+  }
+  @media screen and (max-width: 991px) {
+    #LogoAmazon, #LogoMercado, #LogoUphold {
+        width: 173px;
+        margin: 14px 30px 6px 8px
+
+    }
+  }
+
+
+  @media screen and (max-width: 320px) {
+    #LogoAmazon, #LogoMercado, #LogoUphold {
+      width: 731px;
+      margin: 14px 0px 28px 202px;
+
+    }
+  }
 
 .zoom{
     /* Aumentamos la anchura y altura durante 2 segundos */

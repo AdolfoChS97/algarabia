@@ -4,11 +4,25 @@
     font-size: 8px;
     width: 160px;
 }
+@media screen and (max-width: 320px) {
+    .Custom-underline {
+    font-size: 35px;
+    width: 772px;
+    }
+  }
+
 .Nosotros{
     margin-top: 4%;
     margin-left: 2%;
    
 }
+@media screen and (max-width: 320px) {
+    .Nosotros h3 {
+    margin-top: 43%;
+    margin-left: 2%;
+    font-size: 116px;
+    }
+  }
 .paddingNosotros{
     margin-top: 7%;
     margin-right: 0%;
@@ -21,9 +35,37 @@
     border: 1px solid rgb(0,0,0);
     padding: 13px 9px 14px;
 }
+
+
+@media screen and (max-width: 767px) {
+    div.CuadroNegro {
+        width: 304px;
+        margin: 13px 5px 6px -79px;
+
+    }
+  }
+@media screen and (max-width: 991px) {
+div.CuadroNegro {
+    width: 347px;
+    margin: 13px 5px 6px -79px;
+
+}
+}
+
+@media screen and (max-width: 320px) {
+    div.CuadroNegro {
+    width: 1000px;
+    margin: 121px 33px 233px 97px;
+    }
+  }
+
+
+
 #Mision, #Vision {
     width: 100%;
 }
+
+
 .Flotante {
     position: absolute;
     transform: translate(15%, -130%);
@@ -33,11 +75,50 @@
     font-size: 30px;
     margin: 30px 45px;
 }
+
+@media screen and (max-width: 320px) {
+    b.Valores  {
+        font-size: 77px;
+        margin: 0px 18px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    b.Valores{
+    margin-top: 43%;
+    margin-left: 2%;
+    font-size: 116px;
+    }
+  }
+ 
+
 .texValor{
     font-size: 20px;
     text-align: justify; 
     
 }
+
+@media screen and (max-width: 767px) {
+    b.texValor {
+        font-size: 14px;
+        margin: 10px -75px -65px 24px;
+
+    }
+}
+@media screen and (max-width: 991px) {
+    b.texValor {
+        font-size: 17px;
+        margin: 10px -75px -65px 24px;
+
+    }
+  }
+  @media screen and (max-width: 320px) {
+    b.texValor {
+        display:none;
+    }
+  }
+
+
 
 .overlay {
     position: absolute; 

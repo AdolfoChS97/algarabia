@@ -8,3 +8,18 @@
     margin: 7%;
     width: 100%;
 }
+
+@media screen and (max-width: 320px) {
+    div.Galeria h3{
+        font-size: 111px;
+        margin-top: 41%;
+        width: 1245px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    div.galeria{
+    margin-top: 41%;
+    width: 1202px;
+    }
+  }
